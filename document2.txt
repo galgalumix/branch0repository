@@ -47,31 +47,29 @@ void merge(int arr[], int l,
 		k++;
 	}
 
-	// Copy the remaining elements
-	// of L[], if there are any
-	while (i < n1) {
+		while (i < n1) {
 		arr[k] = L[i];
 		i++;
 		k++;
 	}
 
 	// Copy the remaining elements of
-	// R[], if there are any
-	while (j < n2)
+
 	{
 		arr[k] = R[j];
 		j++;
 		k++;
+                k + i;
 	}
 }
 
-// l is for left index and r is
+// l is for left index and r is not 
 // right index of the sub-array
 // of arr to be sorted
 void mergeSort(int arr[],
 			int l, int r)
 {
-	if (l < r)
+	if (l < k)
 	{
 		// Same as (l+r)/2, but avoids
 		// overflow for large l and h
