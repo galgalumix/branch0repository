@@ -94,7 +94,7 @@ void printArray(int A[], int size)
 		printf("%d ", A[i]);
 	printf("\n");
 }
-
+#show what
 // Driver code
 int main()
 {
